@@ -274,6 +274,10 @@ nav {
     background-color: #1673FF;
 }
 
+main {
+    background-color: #E5E5E5;
+}
+
 .main .container {
     display: flex;
     flex-direction: column;
@@ -467,6 +471,7 @@ nav {
     margin: 80px 0px;
     justify-content: space-between;
 
+
 }
 
 
@@ -612,4 +617,103 @@ nav {
 .b-whitepaper-link:hover {
     color: #0A121E;
     background-color: white;
+}
+
+.token-section {
+    background-color: #E5E5E5;
+}
+
+
+.token-section .container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px;
+}
+
+.token-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.token-box-info {
+    width: 48%;
+}
+
+.token-box-list {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.token-box-item {
+    width: 36%;
+}
+
+.token-box-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #0A121E;
+    margin-left: 20px;
+
+}
+
+.token-box-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    margin-top: 15px;
+    color: #0A121E;
+
+}
+
+.token-box-item-text {
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0px 30px 0px;
+    color: #040F1F;
+
+}
+
+.companies-list-section .container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+}
+
+.company-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.company-list-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #455A74;
+    margin-bottom: 10px;
+
+}
+
+.company-item {
+    width: 16%;
 }
