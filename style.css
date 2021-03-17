@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul,
 ol {
     list-style: none;
@@ -20,6 +24,7 @@ img {
 }
 
 body {
+    
     font-family: "Roboto", sans-serif;
 }
 
@@ -129,6 +134,8 @@ nav {
 
 
 .header-socials {
+    position: absolute;
+    position:fixed;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -716,4 +723,468 @@ main {
 
 .company-item {
     width: 16%;
+}
+
+td {
+    border-collapse: collapse;
+}
+
+.table-box {
+    margin: 120px 0px;
+}
+
+.table-box-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #0A121E;
+
+}
+
+.table-box-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    margin: 15px 0px 60px 0px;
+    color: #0A121E;
+
+}
+
+
+.table-data {
+    padding: 38px 40px;
+    background: #E7F1FB;
+    border-radius: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(12, 39, 34, 0.9);
+    border-collapse: collapse;
+}
+
+.same {
+    padding: 50px 100px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.table-data1 {
+    padding: 30px 110px;
+    background-color: #E7F1FB;
+    border-collapse: collapse;
+}
+
+.table-heading1 {
+    width: 254px;
+    padding: 52px 70px;
+    background-color: #E7F1FB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+
+
+    color: #040F1F;
+}
+
+.different {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #040F1F;
+    padding: 38px 40px;
+    background: #E7F1FB;
+    border-radius: 0px;
+}
+
+
+.roadmap-box {
+    margin: 100px 0px 60px 0px;
+}
+
+.roadmap-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #0A121E;
+}
+
+
+.roadmap-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    color: #0A121E;
+    margin: 15px 0px 60px 0px;
+
+}
+
+.titles {
+    display: flex;
+}
+
+
+.year-title {
+    width: 25%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #040F1F;
+    margin-bottom: 20px;
+
+}
+
+.road-line {
+
+    height: 2px;
+    color: #EAEEF2;
+}
+
+
+.products-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.product-box {
+    margin-top: 30px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.product-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #040F1F;
+}
+
+
+.product-box-list {
+    margin-top: 15px;
+
+}
+
+.product-box-item {
+    padding: 22px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #040F1F;
+    background-color: #E7F1FB;
+
+}
+
+.several {
+    margin-top: 20px;
+}
+
+.seve {
+    text-align: center;
+}
+
+.images-section {
+    background-color: #EAEEF2;
+}
+
+.images-section .container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.images-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    color: #0A121E;
+
+}
+
+
+.images-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    margin: 15px 0px 60px 0px;
+    color: #0A121E;
+
+}
+
+.images-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.images-item {
+    width: 23%;
+    margin: 30px 0px;
+}
+
+.profession {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    margin: 20px 0px 8px 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #1673FF;
+
+
+}
+
+
+.prof {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.man-name {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #040F1F;
+}
+
+
+.former {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #455A74;
+}
+
+
+.blank-links {
+    background-color: #1673FF;
+}
+
+.blank-links .container {
+    padding: 110px 0px;
+}
+
+.links-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.blank-section-links {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 50px 300px;
+}
+
+
+.blank-sec-link {
+    width: 295px;
+    height: 58px;
+    display: inline-block;
+    padding: 17px 26px;
+    background: #0A121E 70%;
+    border: 2px solid #1673FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+
+.blank-whitepaper-link {
+    width: 268px;
+    height: 58px;
+    display: block;
+    padding: 17px 26px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: 0.4s;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.blank-whitepaper-link:hover {
+    text-decoration: underline;
+}
+
+
+.blank-sec-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0A121E;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    padding: 110px 0px 80px 0px;
+}
+
+.footer-infos {
+    width: 33%;
+
+}
+
+.footer-name {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 40px;
+    color: #FFFFFF;
+
+}
+
+
+.footer-bottom {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 150px;
+    color: #FFFFFF;
+
+}
+
+.footer-first-list1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.footer-black-link {
+    display: block;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #74849B;
+    text-decoration: none;
+
+}
+
+.footer-black-link:hover {
+    text-decoration: underline;
+}
+
+.footer-first-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.footer-first-list-link {
+    display: block;
+    text-decoration: none;
+    margin: 9px 0px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+.footer-first-list-link:hover {
+    text-decoration: underline;
 }
